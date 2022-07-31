@@ -20,7 +20,7 @@ def skip_mission(token, rec):
 			js = json.loads(response)
 			logs = js['data']['Logs']
 			cash = logs[len(logs)-1]['Message'].split()[5]
-			print(f'Mabok Duit Bussid -> {cash}')
+			print(f'Scripts By : Ryz Ganz,Your Money Now: -> {cash}')
 		except Exception as e:
 			pass
 			
