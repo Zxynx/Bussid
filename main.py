@@ -20,7 +20,7 @@ def skip_mission(token, rec):
 			js = json.loads(response)
 			logs = js['data']['Logs']
 			cash = logs[len(logs)-1]['Message'].split()[5]
-			print(f'Mabok Duit Bussid -> {cash}')
+			print(f'Script Dibuat Oleh: Rian Febriansyah|Your Cash Now -> {cash}')
 		except Exception as e:
 			pass
 			
@@ -40,8 +40,8 @@ def pass_mission():
 	except Exception as e:
 		pass
 
-auth = input('auth? : ')
+auth = input('Ryz Speaks : Your Auth? : ')
 headers['X-Authorization'] = auth	
 while True:
 	pass_mission()
-	time.sleep(2.5)
+	time.sleep(1.1)
